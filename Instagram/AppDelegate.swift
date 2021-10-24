@@ -1,11 +1,12 @@
 //
 //  AppDelegate.swift
-//  Instagram
+//  InstagramFirestoeTutorial
 //
-//  Created by Media Davarkhah on 6/19/1400 AP.
+//  Created by Media Davarkhah on 4/13/1400 AP.
 //
 
 import UIKit
+import Firebase
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -13,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        FirebaseApp.configure()
         return true
     }
 
